@@ -1,6 +1,5 @@
 # Taxon-classification-for-shotgun-metagenomes
 This workflow is used for the taxonomy classification of shotgun metagenomes that was shared to Nicole
-
 Author: Shaelyn Xu
 Date:June 2026
 Description:
