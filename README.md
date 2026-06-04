@@ -4,7 +4,7 @@ Author: Shaelyn Xu
 Date:June 2026
 Description:
 This workflow performs host read decontamination followed by taxonomic classification and abundance 
-re-estimation using Bowtie2, Kraken2, and Bracken.
+re-estimation using kneaddata, Kraken2, and Bracken.
 
 Required software:
 kneadata
@@ -39,3 +39,6 @@ bracken -d <KRAKEN_DB_standard> \
   -l S \ 
   -o sample.bracken \
   -w sample.breport
+
+4. combine individual bracken output in one combined.tsv
+   
