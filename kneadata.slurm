@@ -13,7 +13,7 @@
 #SBATCH --job-name=kneaddata
 
 module load conda
-conda activate bowtie2  #replace with your environment bfsfsjkdhfjhdfj
+conda activate kneadata  #replace with your environment 
 
 BASE="/work/parkins_lab/project/Shaelyn/wastewater_amr"  # the base folder directory
 READS="${BASE}/03.TrimmedData" # the folder has your trimmed data
